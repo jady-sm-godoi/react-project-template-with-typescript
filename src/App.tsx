@@ -12,11 +12,20 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://create-react-app.dev/docs/adding-typescript/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <img src="https://cdn-dpdal.nitrocdn.com/GyhcCIiZNdTIbeWlnyLmouvoGPRcWSwV/assets/images/optimized/rev-b5451d8/blog/wp-content/uploads/sites/2/2022/07/React-Typescript-.jpg" alt="" />
+          <p>Learn React with TS</p>
+        </a>
+        <a 
+          className="App-link"
+          href="https://react-typescript-cheatsheet.netlify.app/docs/basic/setup"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>Setup TypeScript with React</p>
         </a>
       </header>
     </div>
