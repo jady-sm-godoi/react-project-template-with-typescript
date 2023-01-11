@@ -1,3 +1,40 @@
+# Setup TypeScript with React
+
+## Prerequisites
+
+- Good understanding of React
+- Familiarity with TypeScript Types (2ality's guide is helpful. If you’re an absolute beginner in TypeScript, - check out chibicode’s tutorial.)
+- Having read the TypeScript section in the official React docs.
+- Having read the React section of the new TypeScript playground (optional: also step through the 40+ examples under the playground's Examples section)
+
+This guide will always assume you are starting with the latest TypeScript and React versions. 
+
+## VS Code Extensions
+
+- Refactoring help https://marketplace.visualstudio.com/items?itemName=paulshen.paul-typescript-toolkit
+- R+TS Code Snippets (there are a few...)
+https://marketplace.visualstudio.com/items?itemName=infeng.vscode-react-typescript
+https://www.digitalocean.com/community/tutorials/the-best-react-extension-for-vs-code
+- TypeScript official extension https://code.visualstudio.com/docs/languages/typescript
+- JavaScript and TypeScript Nightly https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next
+
+## React + TypeScript Starter Kits
+### Cloud setups:
+
+- TypeScript Playground with React just if you are debugging types (and reporting issues), not for running code
+- CodeSandbox - cloud IDE, boots up super fast
+- Stackblitz - cloud IDE, boots up super fast
+
+### Local dev setups:
+
+- Next.js: npx create-next-app@latest --ts will create in your current folder
+- Create React App: npx create-react-app name-of-app --template typescript will create in new folder
+- Vite: npm create vite@latest my-react-ts-app -- --template react-ts
+- Meteor: meteor create --typescript name-of-my-new-typescript-app
+- Ignite for React Native: ignite new myapp
+- TSDX: npx tsdx create mylib for Creating React+TS libraries. (in future: TurboRepo)
+
+____
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
